@@ -16,4 +16,12 @@ https://drive.google.com/file/d/19vBR_8Il1qcaEZsK42aGfvg5lCuvLh1A/view
 
 ## Training Autoencoder
 
-Learn the LD representation of the SI dataset with ´main_autoencoder.py´
+Learn the LD representation of the SI dataset with `main_autoencoder.py` 
+
+## Training the GAN 
+
+Train the GAN from the LD representation of the SI with `main_embedded_gan.py` 
+To train the base GAN (Without LD employ `main_base_embedded_gan.py` )
+
+## Generate the data 
+To gene
