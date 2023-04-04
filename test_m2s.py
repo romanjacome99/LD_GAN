@@ -29,10 +29,9 @@ def init_parser():
     # datasets and model
 
     parser.add_argument('--dataset-path',
-                        default=r'C:\Users\EMMANUELMARTINEZ\Documents\Datasets\ARAD',
+                        default=r'File_path',
                         help='path to dataset files')
     parser.add_argument('--gen-dataset-path', default=None,
-                        # default=r'C:\Users\EMMANUELMARTINEZ\Documents\Datasets\ARAD\gen_spec_train_64x64x31_num_samples_57536.h5',
                         help='path to generated dataset files')
     parser.add_argument('--dataset', type=str.lower, default='arad',
                         choices=['arad', 'cifar10', 'cifar100', 'imagenet'],

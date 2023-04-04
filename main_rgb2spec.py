@@ -31,11 +31,11 @@ def init_parser():
     # datasets and model
 
     parser.add_argument('--dataset-path',
-                        # default=r'C:\Users\EMMANUELMARTINEZ\Documents\Datasets\ARAD\spatial_size_512x512',
-                        default=r'C:\Roman\datasets\ARAD',
+
+                        default=r'File_path',
                         help='path to dataset files')
     parser.add_argument('--gen-dataset-path',
-                        default=r'C:\Users\EMMANUELMARTINEZ\Documents\Datasets\ARAD\spatial_size_256x256\gen\gen_emb_train_128x128x31_bandsy_ns_w.h5',
+                        default=r'File_path',
                         # default=None,
                         help='path to generated dataset files')
     parser.add_argument('--dataset', type=str.lower, default='arad',

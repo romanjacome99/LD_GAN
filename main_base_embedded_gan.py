@@ -28,7 +28,7 @@ def init_parser():
 
     # datasets and model
 
-    parser.add_argument('--dataset-path', default=r'/media/hdspdeep/Disco2/Roman/Data/ARAD_2',
+    parser.add_argument('--dataset-path', default=r'File_path',
                         help='path to dataset files')
     parser.add_argument('--dataset', type=str.lower, default='arad',
                         choices=['cave', 'kaist', 'arad', 'celeba'],

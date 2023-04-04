@@ -32,7 +32,7 @@ def init_parser():
     # datasets and model
 
     parser.add_argument('--dataset-path',
-                        default=r'C:\Roman\datasets\ARAD',
+                        default=r'File_path',
                         help='path to dataset files')
     parser.add_argument('--dataset', type=str.lower, default='arad',
                         choices=['cave', 'kaist', 'arad', 'celeba'],

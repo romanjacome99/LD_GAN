@@ -44,9 +44,8 @@ def init_parser():
 
     # datasets and model
 
-    parser.add_argument('--dataset-path',  # default='/media/jorgehdsp/DIsco2/Emmanuel/datasets/cave',
-                        default=r'C:\Users\EMMANUELMARTINEZ\Documents\Datasets\ARAD',
-                        # default=r'C:\Users\EMMANUELMARTINEZ\Documents\Datasets\RAW\ARAD',
+    parser.add_argument('--dataset-path',
+                        default=r'File_path',
                         help='path to dataset files')
     parser.add_argument('--dataset', type=str.lower, default='arad',
                         choices=['cave', 'kaist', 'arad'],

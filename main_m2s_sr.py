@@ -30,10 +30,10 @@ def init_parser():
     # datasets and model
 
     parser.add_argument('--dataset-path',
-                        default=r'C:\Roman\datasets\ARAD',
+                        default=r'File_path',
                         help='path to dataset files')
     parser.add_argument('--gen-dataset-path',
-                        default='C:\Roman\embedded-gan\generated_data\gen_reg_max_var_param_gan_0.001_reg_param_ae0.001\gen_emb_train_128x128x31_num_samples_3596.h5',
+                        default='File_path',
                         # default=None,
                         help='path to generated dataset files')
     parser.add_argument('--dataset', type=str.lower, default='arad',
