@@ -24,4 +24,8 @@ Train the GAN from the LD representation of the SI with `main_embedded_gan.py`
 To train the base GAN (Without LD employ `main_base_embedded_gan.py` )
 
 ## Generate the data 
-To gene
+To generate the synthetic dataset use `create_generated_dataset_spectral.py` for the base GAN and `create_generated_dataset.py` for the proposed LD-GAN
+
+## SI computational tasks 
+
+To validate the generated images as a data augmentations technique run `main_m2s.py` for CSI recovery `main_rgb2spec.py` for RGB to spectral or `main_m2s_sr.py` for SI super-resolution.
